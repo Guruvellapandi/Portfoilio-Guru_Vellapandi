@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="profile-container">
+            <h2>Guru Vellapandi</h2>
+            <p>Front End Developer</p>
+        </div>
+
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <!-- Home Section -->
+        <section id="home">
+            <h1>HI THERE!</h1>
+            <h2>I'M <span class="highlight">Guru Vellapandi</span></h2>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h3>About Me</h3>
+            <div class="about-container">
+                <div class="about-content">
+                    <br>
+                    <h4>Who I Am</h4>
+                    <p>Hi! I'm Guru Vellapandi, a passionate Front End Developer with a love for creating beautiful and
+                        functional web interfaces. With several years of experience in web development, I've honed my
+                        skills in HTML, CSS, and JavaScript to build engaging and responsive websites.</p>
+                    <p>I specialize in crafting seamless user experiences and am dedicated to staying up-to-date with
+                        the latest industry trends and technologies. My goal is to deliver high-quality web solutions
+                        that meet the needs of both clients and users.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h3>My Education</h3>
+            <div class="education-container">
+                <div class="education-card">
+                    <div class="year">2019</div>
+                    <div class="content">
+                        <h4>SSLC</h4>
+                        <p>Completed SSLC in Pushpalata Matriculation Higher Secondary School with 75%</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="year">2021</div>
+                    <div class="content">
+                        <h4>HSC</h4>
+                        <p>Completed HSC in Pushpalata Matriculation Higher Secondary School with 77%</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="year">2022 - present</div>
+                    <div class="content">
+                        <h4>Bachelor's in Technology</h4>
+                        <p>Pursuing studies in information technology, focusing on modern web architectures and
+                            technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h3>My Projects</h3>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h4>E-commerce Recommendation System Website</h4>
+                    <p>A fully responsive e-commerce website built with React and Node.js, featuring user
+                        authentication, product catalog, and payment integration.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Call Taxi Booking</h4>
+                    <p>Developed a comprehensive taxi booking application utilizing Object-Oriented Programming (OOP)
+                        concepts. This project demonstrates the practical application of OOP principles such as
+                        encapsulation, inheritance, polymorphism, and abstraction.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Portfolio Website</h4>
+                    <p>A personal portfolio website showcasing my skills and projects, built with HTML, CSS, and
+                        JavaScript, featuring a responsive design.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> guruvellapandi@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 8248183678</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tamil Nadu, India 627005</p>
+                </div>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+
+                    <label for="project">Project Name</label>
+                    <input type="text" id="project" name="project" placeholder="Project Name">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Send <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
